@@ -5,7 +5,7 @@ import math
 st.set_page_config(page_title="Heat Exchanger Design - Kern’s Method", layout="wide")
 
 st.title("Heat Exchanger Design using Kern’s Method")
-st.markdown("**Created by Dev Patra** — Still in developing phase. Visit: [**https://devpatra07.github.io/**](https://devpatra07.github.io/)")
+st.markdown("**Created by Dev Patra** — Still in developing phase (interface ready, equations are yet to be implemented). Visit: [**https://devpatra07.github.io/**](https://devpatra07.github.io/)")
 
 st.sidebar.header("Input Parameters")
 
@@ -68,4 +68,5 @@ with st.expander("🔍 Assumptions & Notes"):
     """)
 
 st.markdown("---")
+
 st.caption("Developed by Dev Patra | Kern’s Method Based Design | Streamlit")
